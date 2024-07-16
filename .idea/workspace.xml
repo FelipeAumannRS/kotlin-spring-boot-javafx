@@ -4,34 +4,157 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d73ecb9b-515c-460c-b7db-767b1fd83304" name="Changes" comment="" />
+    <list default="true" id="d73ecb9b-515c-460c-b7db-767b1fd83304" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/user-interface/css/commons/views.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/api/adapter/out/persistance/model/TransactionMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/api/adapter/out/persistance/model/TransactionMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/user-interface/view/home-page/home-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/user-interface/view/home-page/home-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/user-interface/view/login/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/user-interface/view/login/login-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/user-interface/view/profile/profile-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/user-interface/view/profile/profile-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/user-interface/view/transaction-history/transaction-history-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/user-interface/view/transaction-history/transaction-history-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/user-interface/view/transaction/transaction-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/user-interface/view/transaction/transaction-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/user-interface/view/user-page/user-page-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/user-interface/view/user-page/user-page-view.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LLMProjectSettings">
+    <option name="turned_on" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="2j76qQ5nhVjn4dPaZId0XeyMON0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "HTTP Request.All in generated-requests.executor": "Run",
+    "HTTP Request.generated-requests | #2.executor": "Run",
+    "HTTP Request.generated-requests | #3.executor": "Run",
+    "HTTP Request.generated-requests | #4.executor": "Run",
+    "HTTP Request.generated-requests | #5.executor": "Run",
+    "HTTP Request.generated-requests | #6.executor": "Run",
+    "HTTP Request.generated-requests | #8.executor": "Run",
+    "Kotlin.FxAppKt.executor": "Run",
+    "Kotlin.MainKt.executor": "Debug",
+    "Maven.kotlin-javafx-spring-boot-project [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.FxApp.executor": "Run",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/felip/Desktop/kotlin-javafx-spring-boot-project/src/main/resources/user-interface/icons",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/felip/Desktop/kotlin-javafx-spring-boot-project/src/main/kotlin/Main.kt",
+    "settings.editor.selected.configurable": "project.kotlinCompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\felip\Desktop\kotlin-javafx-spring-boot-project\src\main\resources\user-interface\icons" />
+      <recent name="C:\Users\felip\Desktop\kotlin-javafx-spring-boot-project\src\main\resources\user-interface\view\user-page" />
+      <recent name="C:\Users\felip\Desktop\kotlin-javafx-spring-boot-project\src\main\resources\user-interface\view\transfer" />
+      <recent name="C:\Users\felip\Desktop\kotlin-javafx-spring-boot-project\src\main\resources\user-interface\view\transaction-history" />
+      <recent name="C:\Users\felip\Desktop\kotlin-javafx-spring-boot-project\src\main\resources\user-interface\view\profile" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\felip\Desktop\kotlin-javafx-spring-boot-project\src\main\resources\user-interface\icons" />
+      <recent name="C:\Users\felip\Desktop\kotlin-javafx-spring-boot-project\src\main\resources\user-interface\view" />
+      <recent name="C:\Users\felip\Desktop\kotlin-javafx-spring-boot-project\src\main\resources\user-interface\view\" />
+      <recent name="C:\Users\felip\Desktop\kotlin-javafx-spring-boot-project\src\main\resources\user-interface" />
+      <recent name="C:\Users\felip\Desktop\kotlin-javafx-spring-boot-project\src\main\resources\user-interface\view\home-page" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="view.service.impl.transaction_history" />
+      <recent name="view.service.use_case.transaction_history" />
+      <recent name="view.controller.transaction_history" />
+      <recent name="view.controller" />
+      <recent name="api.adapter.out.persistance.repository" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.FxApp">
+    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="#5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="#6" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="8" requestIdentifier="#8" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="FxApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-javafx-spring-boot-project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="view.FxApp" />
+      <option name="VM_PARAMETERS" value="-Djavafx.animation.fullspeed=true -XX:+UseG1GC -Dprism.forceGPU=true -Dsun.java2d.opengl=true -Dcom.sun.webkit.useHTTP2Loader=false -Xms512m -Xmx4g -XX:MaxGCPauseMillis=50 -XX:+UseStringDeduplication -Dprism.lcdtext=false -Dprism.text=native" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.generated-requests | #4" />
+      <item itemvalue="HTTP Request.generated-requests | #5" />
+      <item itemvalue="HTTP Request.generated-requests | #6" />
+      <item itemvalue="HTTP Request.generated-requests | #8" />
+      <item itemvalue="Spring Boot.FxApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.FxApp" />
+        <item itemvalue="HTTP Request.generated-requests | #8" />
+        <item itemvalue="HTTP Request.generated-requests | #6" />
+        <item itemvalue="HTTP Request.generated-requests | #5" />
+        <item itemvalue="HTTP Request.generated-requests | #4" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,22 +163,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720725960390</updated>
-      <workItem from="1720725961450" duration="1000" />
+      <workItem from="1720725961450" duration="90908000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Main.kt</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

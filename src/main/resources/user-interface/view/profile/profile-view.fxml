@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane stylesheets="@../../css/commons/views.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.controller.ProfileController">
+   <children>
+      <VBox alignment="CENTER" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox onMouseClicked="#returnToUserPageOnMouseClicked" spacing="10.0">
+               <children>
+                  <Button mnemonicParsing="false" onMouseClicked="#returnToUserPageOnMouseClicked" text="Return to user page" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" spacing="10.0">
+               <children>
+                  <Label text="Balance:">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Label>
+                  <Label fx:id="label_balance" text="Label">
+                     <font>
+                        <Font size="28.0" />
+                     </font></Label>
+               </children>
+            </HBox>
+            <TextField fx:id="textField_name" maxWidth="200.0" promptText="Name" />
+            <TextField fx:id="textField_email" maxWidth="200.0" promptText="Email" />
+            <TextField fx:id="textField_cpf" maxWidth="200.0" promptText="CPF" />
+            <TextField fx:id="textField_cnpj" maxWidth="200.0" promptText="CNPJ (optional)" />
+            <TextField fx:id="textField_phoneNumber" maxWidth="200.0" promptText="Phone number" />
+         </children>
+         <padding>
+            <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>

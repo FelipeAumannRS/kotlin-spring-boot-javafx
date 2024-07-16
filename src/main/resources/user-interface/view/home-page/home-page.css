@@ -1,0 +1,38 @@
+@import "../../css/commons/colors.css";
+
+.home-page {
+    -fx-background-color: -main-background-color;
+}
+
+.separators {
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-width: 0.5 0 0.5 0;
+    -fx-border-color: -description-text-color;
+}
+
+.buttons {
+    -fx-background-color: -main-background-color;
+    -fx-text-fill: -headline-buttons-text-color;
+    -fx-font-family: 'C6 Sans Display SemiBold';
+    -fx-font-size: 16px;
+}
+
+.black-buttons {
+    -fx-background-color: -main-background-color;
+    -fx-text-fill: -headline-text-color;
+    -fx-border-radius: 16;
+    -fx-border-color: -headline-text-color;
+    -fx-font-family: 'C6 Sans Display Regular';
+}
+.white-buttons {
+    -fx-background-color: -button-white-background;
+    -fx-text-fill: -button-black-inner-background;
+    -fx-background-radius: 9;
+    -fx-font-family: 'C6 Sans Display Regular';
+}
+
+
+.labels {
+    -fx-text-fill: -headline-text-color;
+}

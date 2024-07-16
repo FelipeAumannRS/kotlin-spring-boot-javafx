@@ -1,0 +1,11 @@
+@import "../../css/commons/colors.css";
+
+.transaction-node {
+    -fx-background-color: -background-color;
+    -fx-background-radius: 8;
+}
+
+.label {
+    -fx-text-fill: -headline-text-color;
+    -fx-font-family: 'C6 Sans Display Medium';
+}

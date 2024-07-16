@@ -1,0 +1,73 @@
+@import "colors.css";
+
+.root {
+    -fx-background-color: -main-background-color;
+}
+
+.label {
+    -fx-text-fill: -headline-text-color;
+    -fx-font-family: 'C6 Sans Display Medium';
+}
+
+.button {
+    -fx-background-color: -background-color;
+    -fx-text-fill: -headline-text-color;
+    -fx-border-radius: 8;
+    -fx-border-color: -headline-text-color;
+    -fx-font-family: 'C6 Sans Display Regular';
+}
+
+.text-field {
+    -fx-background-color: -background-color;
+    -fx-prompt-text-fill: -description-text-color;
+    -fx-text-fill: -headline-text-color;
+    -fx-background-radius: 8;
+    -fx-font-family: 'C6 Sans Display Regular';
+}
+
+.jfx-snackbar-content {
+    -fx-background-color: transparent;
+    -fx-border-radius: 6;
+    -fx-border-color: white;
+    -fx-padding: 5 10 5 10;
+}
+.jfx-snackbar-content .label {
+    -fx-text-fill: white;
+    -fx-font-size: 24;
+    -fx-font-family: 'C6 Sans Display Regular';
+}
+
+.titled-pane .title {
+    -fx-border-color: -headline-text-color;
+    -fx-background-color: -background-color;
+    -fx-background-radius: 6 6 0 0;
+    -fx-border-radius: 6 6 0 0;
+    -fx-border-width: 1 1 0 1;
+}
+.titled-pane .title .text {
+    -fx-font-family: 'C6 Sans Display Regular';
+    -fx-font-size: 14;
+    -fx-fill: -headline-text-color;
+}
+.titled-pane .content {
+    -fx-background-color: -main-background-color;
+    -fx-background-radius: 0 0 8 0;
+    -fx-border-color: -headline-text-color;
+    -fx-border-radius: 0 0 6 6;
+    -fx-border-width: 0 1 1 1;
+}
+.titled-pane .title .arrow-button .arrow {
+    -fx-background-color: rgba(0, 234, 255, 0.8);
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+    -fx-shape: "M83 178 c-19 -24 -83 -145 -83 -156 0 -8 31 -12 100 -12 73 0 100 3 100 13 0 18 -83 160 -96 164 -6 2 -16 -2 -21 -9z";
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+    -fx-background-radius: 2;
+}
+.scroll-pane .scroll-bar {
+    -fx-background-color: transparent;
+}
