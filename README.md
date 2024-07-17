@@ -66,7 +66,5 @@ The diagram below illustrates the Hexagonal Architecture of the application:
 ### Building and Running the Project
 
 ```bash
-git clone https://github.com/FelipeAumannRS/kotlin-spring-boot-javafx.git
-cd kotlin-spring-boot-javafx
 mvn clean install
 mvn spring-boot:run
