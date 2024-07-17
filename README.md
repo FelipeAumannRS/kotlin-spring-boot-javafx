@@ -49,26 +49,6 @@ This application provides the following key features:
 
 The project follows a structured approach to ensure a clear separation of concerns and high maintainability.
 
-### Layers
-
-1. **Core**
-   - **Entities**: Business entities like `UserEntity` and `TransactionEntity`.
-   - **Use Cases**: Business logic encapsulated in services like `UserUseCase` and `TransactionUseCase`.
-
-2. **Input Adapters**
-   - **Web Controllers**: REST controllers to handle HTTP requests, like `UserController` and `TransactionController`.
-
-3. **Output Adapters**
-   - **Persistence Adapters**: Repositories and data mappers for database interactions, like `UserRepository` and `TransactionRepository`.
-
-4. **Frameworks & Drivers**
-   - **JavaFX**: For building the user interface.
-   - **Spring Boot**: For building and running the backend services.
-
-### Dependencies
-
-The project dependencies are managed using Maven. The `pom.xml` file lists all the necessary dependencies required for the project, such as Spring Boot starters, JavaFX libraries, OkHttp client, Jackson for JSON processing, and JFoenix for enhanced UI components.
-
 ### Diagram
 
 The diagram below illustrates the Hexagonal Architecture of the application:
