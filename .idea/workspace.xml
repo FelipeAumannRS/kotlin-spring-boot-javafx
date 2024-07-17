@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d73ecb9b-515c-460c-b7db-767b1fd83304" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/user-interface/css/commons/views.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/api/adapter/out/persistance/model/TransactionMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/api/adapter/out/persistance/model/TransactionMapper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/user-interface/view/home-page/home-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/user-interface/view/home-page/home-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/user-interface/view/login/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/user-interface/view/login/login-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/user-interface/view/profile/profile-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/user-interface/view/profile/profile-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/user-interface/view/transaction-history/transaction-history-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/user-interface/view/transaction-history/transaction-history-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/user-interface/view/transaction/transaction-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/user-interface/view/transaction/transaction-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/user-interface/view/user-page/user-page-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/user-interface/view/user-page/user-page-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/api/adapter/out/persistance/entity/UserEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/api/adapter/out/persistance/entity/UserEntity.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2j76qQ5nhVjn4dPaZId0XeyMON0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -71,8 +64,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.FxApp.executor": "Run",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/felip/Desktop/kotlin-javafx-spring-boot-project/src/main/resources/user-interface/icons",
+    "last_opened_file_path": "C:/Users/felip/kotlin-spring-boot-javafx",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -164,6 +158,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720725960390</updated>
       <workItem from="1720725961450" duration="90908000" />
+      <workItem from="1721171090985" duration="2287000" />
     </task>
     <servers />
   </component>

@@ -4,7 +4,11 @@
 
 ## Overview
 
-This project is a Kotlin-based application that leverages the power of JavaFX for its user interface and Spring Boot for its backend services. The architecture follows the principles of Hexagonal Architecture (also known as Ports and Adapters) to ensure a clean separation of concerns and high testability.
+This project is a Kotlin-based application that leverages the power of JavaFX for its user interface and Spring Boot for its backend services. The architecture follows the principles of Hexagonal Architecture (also known as Ports and Adapters) to ensure a clean separation of concerns and high testability. The system UI takes inspiration from the modern design principles of C6 Bank, offering a sleek and user-friendly interface.
+
+## C6 Bank Inspiration
+
+C6 Bank is known for its innovative approach to digital banking, providing seamless and intuitive user experience. Their design system is modern, clean, and highly functional, which aligns with the goals of this project to provide a visually appealing and easy-to-use interface. More information about C6 Bank can be found on their [website](https://www.c6bank.com.br/cartao-c6-carbon-mastercard-black).
 
 ## Core Technologies
 
@@ -48,18 +52,18 @@ The project follows a structured approach to ensure a clear separation of concer
 ### Layers
 
 1. **Core**
-    - **Entities**: Business entities like `UserEntity` and `TransactionEntity`.
-    - **Use Cases**: Business logic encapsulated in services like `UserUseCase` and `TransactionUseCase`.
+   - **Entities**: Business entities like `UserEntity` and `TransactionEntity`.
+   - **Use Cases**: Business logic encapsulated in services like `UserUseCase` and `TransactionUseCase`.
 
 2. **Input Adapters**
-    - **Web Controllers**: REST controllers to handle HTTP requests, like `UserController` and `TransactionController`.
+   - **Web Controllers**: REST controllers to handle HTTP requests, like `UserController` and `TransactionController`.
 
 3. **Output Adapters**
-    - **Persistence Adapters**: Repositories and data mappers for database interactions, like `UserRepository` and `TransactionRepository`.
+   - **Persistence Adapters**: Repositories and data mappers for database interactions, like `UserRepository` and `TransactionRepository`.
 
 4. **Frameworks & Drivers**
-    - **JavaFX**: For building the user interface.
-    - **Spring Boot**: For building and running the backend services.
+   - **JavaFX**: For building the user interface.
+   - **Spring Boot**: For building and running the backend services.
 
 ### Dependencies
 
@@ -82,5 +86,7 @@ The diagram below illustrates the Hexagonal Architecture of the application:
 ### Building and Running the Project
 
 ```bash
+git clone https://github.com/FelipeAumannRS/kotlin-spring-boot-javafx.git
+cd kotlin-spring-boot-javafx
 mvn clean install
 mvn spring-boot:run

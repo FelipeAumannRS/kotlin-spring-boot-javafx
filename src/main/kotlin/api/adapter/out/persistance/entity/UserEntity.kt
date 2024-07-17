@@ -3,7 +3,7 @@ package api.adapter.out.persistance.entity
 import javax.persistence.*
 
 @Entity
-@Table(name = "user")
+@Table(name = "users")
 class UserEntity(
 
     @Id
@@ -31,4 +31,8 @@ class UserEntity(
 
     @Column(name = "balance")
     var balance: Double = 0.0,
-)
+) {
+    constructor() : this(
+        0L, "", "", "", null, "", "", 0.0
+    )
+}
